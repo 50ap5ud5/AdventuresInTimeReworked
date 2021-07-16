@@ -28,6 +28,8 @@ public class AIBlocks {
     public static final RegistryObject<Block> NEWBURY_PLAIN = BLOCKS.register(
             "newbury_roundel_plain", () -> new Block(Block.Properties.of(
                     Material.WOOD, MaterialColor.COLOR_BROWN).harvestTool(ToolType.AXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    //Newbury
     public static final RegistryObject<Block> NEWBURY_GLASS_A = BLOCKS.register(
             "newbury_roundel_glass_a", () -> new Block(Block.Properties.of(
                     Material.WOOD, MaterialColor.COLOR_BROWN).harvestTool(ToolType.AXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.WOOD).noOcclusion()));
