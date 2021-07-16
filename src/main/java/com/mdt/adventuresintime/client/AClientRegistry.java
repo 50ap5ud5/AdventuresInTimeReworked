@@ -21,6 +21,16 @@ public class AClientRegistry {
         event.enqueueWork(() -> {
             RenderTypeLookup.setRenderLayer(AIBlocks.STEEL_GRATE.get(), RenderType.translucent());
             RenderTypeLookup.setRenderLayer(AIBlocks.STEEL_GRATE_SLAB.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(AIBlocks.NEWBURY_PLAIN.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.NEWBURY_GLASS_A.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_MINT_A.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_MINT_B.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TBAKER_ROUNDEL_A.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TBAKER_ROUNDEL_B.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.MASTER_ROUNDEL_A.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.MASTER_ROUNDEL_B.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_BLOWUP_A.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_BLOWUP_B.get(), RenderType.solid());
         });
     }
 }

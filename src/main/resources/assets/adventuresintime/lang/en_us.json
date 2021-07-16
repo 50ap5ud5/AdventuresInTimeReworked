@@ -1,7 +1,18 @@
 {
   "item.adventuresintime.whittaker_sonic": "13th Doctors Sonic",
+  "item.adventuresintime.tennant_sonic": "10th Doctors Sonic",
   "block.adventuresintime.steel_grate" : "Steel Grate Platform",
   "tile.adventuresintime.steel_grate" : "Steel Grate Platform",
   "block.adventuresintime.steel_grate_slab" : "Steel Grate Platform Slab",
+  "block.adventuresintime.newbury_roundel_plain" : "Plain Newbury Roundel",
+  "block.adventuresintime.newbury_roundel_glass_a" : "Glass Newbury Roundel (A)",
+  "block.adventuresintime.hartnell_mint_a" : "Hartnell Brachacki (A)",
+  "block.adventuresintime.hartnell_mint_b" : "Hartnell Brachacki (B)",
+  "block.adventuresintime.tbaker_roundel_a" : "Yellow Baker Roundel (A)",
+  "block.adventuresintime.tbaker_roundel_b" : "Yellow Baker Roundel (B)",
+  "block.adventuresintime.master_roundel_a" : "Master Roundel (A)",
+  "block.adventuresintime.master_roundel_b" : "Master Roundel (B)",
+  "block.adventuresintime.hartnell_blowup_a" : "Hartnell Blowup Roundel (A)",
+  "block.adventuresintime.hartnell_blowup_b" : "Hartnell Blowup Roundel (B)",
   "tile.adventuresintime.steel_grate_slab" : "Steel Grate Platform Slab"
 }
