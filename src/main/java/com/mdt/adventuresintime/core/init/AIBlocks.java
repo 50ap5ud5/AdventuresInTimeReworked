@@ -20,6 +20,10 @@ public class AIBlocks {
 
     //Blocks are registered here
     public static final RegistryObject<Block> STEEL_GRATE = BLOCKS.register(
-            "steelgrate", () -> new Block(TransparentGrateBlock.Properties.of(
+            "steel_grate", () -> new Block(TransparentGrateBlock.Properties.of(
                     Material.METAL, MaterialColor.COLOR_BROWN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+    public static final RegistryObject<Block> STEEL_GRATE_SLAB = BLOCKS.register(
+            "steel_grate_slab", () -> new SlabBlock(ModSlabBlock.Properties.of(
+                    Material.METAL, MaterialColor.COLOR_BROWN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+
 }

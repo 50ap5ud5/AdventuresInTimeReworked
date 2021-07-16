@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "adventuresintime:block/steel_grate/grate_bottom",
+    "top": "adventuresintime:block/steel_grate/grate_top",
+    "side": "adventuresintime:block/steel_grate/grate_sides"
+  }
+}

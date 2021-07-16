@@ -15,10 +15,13 @@ public class ItemInit {
 
     //Items are registered here
     public static final RegistryObject<Item> WHITTAKER_SONIC = ITEMS.register(
-            "whittakersonic",() -> new Item(new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+            "whittaker_sonic",() -> new Item(new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
 
     //BlockItems
     public static final  RegistryObject<BlockItem> STEEL_GRATE = ITEMS.register(
-            "steelgrate", () -> new BlockItem(AIBlocks.STEEL_GRATE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+            "steel_grate", () -> new BlockItem(AIBlocks.STEEL_GRATE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final  RegistryObject<BlockItem> STEEL_GRATE_SLAB = ITEMS.register(
+            "steel_grate_slab", () -> new BlockItem(AIBlocks.STEEL_GRATE_SLAB.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+
 }

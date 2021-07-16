@@ -1,5 +1,6 @@
 package com.mdt.adventuresintime.common.blocks;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
@@ -9,7 +10,7 @@ import net.minecraft.world.IBlockReader;
 
 public class ModSlabBlock extends SlabBlock {
 
-    public ModSlabBlock(Properties prop, SoundType sound, float hardness, float resistance) {
+    public ModSlabBlock (Properties prop, SoundType sound, float hardness, float resistance) {
 
         super(prop.sound(sound).noCollission().strength(hardness, resistance).isSuffocating((state, iBlockReader, pos) -> false));
     }

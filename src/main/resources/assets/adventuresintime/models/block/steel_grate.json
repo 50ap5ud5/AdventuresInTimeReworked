@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent" : "block/cube_all",
 	"textures": {
-		"0": "adventuresintime:block/grateblock/gratebottom",
-		"1": "adventuresintime:block/grateblock/gratesides",
-		"2": "adventuresintime:block/grateblock/gratetop",
-	"particle" : "adventuresintime:block/grateblock/gratetop"
+		"0": "adventuresintime:block/steel_grate/grate_bottom",
+		"1": "adventuresintime:block/steel_grate/grate_sides",
+		"2": "adventuresintime:block/steel_grate/grate_top",
+	"particle" : "adventuresintime:block/steel_grate/grate_top"
 	},
 	"elements": [
 		{

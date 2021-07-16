@@ -20,6 +20,7 @@ public class AClientRegistry {
 
         event.enqueueWork(() -> {
             RenderTypeLookup.setRenderLayer(AIBlocks.STEEL_GRATE.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(AIBlocks.STEEL_GRATE_SLAB.get(), RenderType.translucent());
         });
     }
 }

@@ -1,7 +1,7 @@
 {
-  "item.adventuresintime.whittakersonic": "13th Doctors Sonic",
-  "block.adventuresintime.steelgrate" : "Steel Grate Platform",
-  "tile.adventuresintime.steelgrate" : "Steel Grate Platform",
-  "block.adventuresintime.steelgrateslab" : "Steel Grate Platform Slab",
-  "tile.adventuresintime.steelgrateslab" : "Steel Grate Platform Slab"
+  "item.adventuresintime.whittaker_sonic": "13th Doctors Sonic",
+  "block.adventuresintime.steel_grate" : "Steel Grate Platform",
+  "tile.adventuresintime.steel_grate" : "Steel Grate Platform",
+  "block.adventuresintime.steel_grate_slab" : "Steel Grate Platform Slab",
+  "tile.adventuresintime.steel_grate_slab" : "Steel Grate Platform Slab"
 }
