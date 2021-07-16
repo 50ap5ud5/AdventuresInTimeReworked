@@ -27,7 +27,7 @@ public class ItemInit {
     public static final  RegistryObject<BlockItem> STEEL_GRATE_SLAB = ITEMS.register(
             "steel_grate_slab", () -> new BlockItem(AIBlocks.STEEL_GRATE_SLAB.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 
-    //Roundels
+    //Roundel Blocks
     public static final  RegistryObject<BlockItem> NEWBURY_PLAIN = ITEMS.register(
             "newbury_roundel_plain", () -> new BlockItem(AIBlocks.NEWBURY_PLAIN.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final  RegistryObject<BlockItem> NEWBURY_GLASS_A = ITEMS.register(
