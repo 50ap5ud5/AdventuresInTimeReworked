@@ -3,6 +3,7 @@ package com.mdt.adventuresintime.core.init;
 import com.mdt.adventuresintime.adventuresintime;
 import com.mdt.adventuresintime.common.blocks.ModSlabBlock;
 import com.mdt.adventuresintime.common.blocks.TransparentGrateBlock;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
@@ -56,6 +57,12 @@ public class AIBlocks {
                     Material.STONE, MaterialColor.COLOR_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
     public static final RegistryObject<Block> HARTNELL_BLOWUP_B = BLOCKS.register(
             "hartnell_blowup_b", () -> new Block(Block.Properties.of(
+                    Material.STONE, MaterialColor.COLOR_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> CORAL_WALL_BLOCK = BLOCKS.register(
+            "coral_wall_block", () -> new Block(Block.Properties.of(
+                    Material.STONE, MaterialColor.COLOR_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> CORAL_ROUNDEL = BLOCKS.register(
+            "coral_roundel", () -> new Block(Block.Properties.of(
                     Material.STONE, MaterialColor.COLOR_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
 
 }

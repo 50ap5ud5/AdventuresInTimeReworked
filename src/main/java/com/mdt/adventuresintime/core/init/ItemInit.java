@@ -1,6 +1,7 @@
 package com.mdt.adventuresintime.core.init;
 
 import com.mdt.adventuresintime.adventuresintime;
+import com.mdt.adventuresintime.common.items.SonicItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,10 +15,10 @@ public class ItemInit {
 
 
     //Items are registered here
-    public static final RegistryObject<Item> WHITTAKER_SONIC = ITEMS.register(
-            "whittaker_sonic",() -> new Item(new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
-    public static final RegistryObject<Item> TENNANT_SONIC = ITEMS.register(
-            "tennant_sonic",() -> new Item(new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<SonicItem> WHITTAKER_SONIC = ITEMS.register(
+            "whittaker_sonic", () -> new SonicItem());
+    public static final RegistryObject<SonicItem> TENNANT_SONIC = ITEMS.register(
+            "tennant_sonic", () -> new SonicItem());
 
 
     //BlockItems
@@ -47,5 +48,8 @@ public class ItemInit {
             "hartnell_blowup_a", () -> new BlockItem(AIBlocks.HARTNELL_BLOWUP_A.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final  RegistryObject<BlockItem> HARTNELL_BLOWUP_B = ITEMS.register(
             "hartnell_blowup_b", () -> new BlockItem(AIBlocks.HARTNELL_BLOWUP_B.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-
+    public static final RegistryObject<BlockItem> CORAL_WALL_BLOCK = ITEMS.register(
+            "coral_wall_block", () -> new BlockItem(AIBlocks.CORAL_WALL_BLOCK.get(),new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CORAL_ROUNDEL = ITEMS.register(
+            "coral_roundel", () -> new BlockItem(AIBlocks.CORAL_ROUNDEL.get(),new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 }

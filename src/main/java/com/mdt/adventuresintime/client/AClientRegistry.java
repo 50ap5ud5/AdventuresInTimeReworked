@@ -31,6 +31,8 @@ public class AClientRegistry {
             RenderTypeLookup.setRenderLayer(AIBlocks.MASTER_ROUNDEL_B.get(), RenderType.solid());
             RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_BLOWUP_A.get(), RenderType.solid());
             RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_BLOWUP_B.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.CORAL_WALL_BLOCK.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.CORAL_ROUNDEL.get(), RenderType.solid());
         });
     }
 }
