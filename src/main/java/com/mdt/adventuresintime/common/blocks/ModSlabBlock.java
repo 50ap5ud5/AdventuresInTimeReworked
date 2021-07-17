@@ -8,6 +8,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
 //This cannot implement INeedItem because it is being used as the icon for an item group. When being registered, the block has not initialised yet so the item group icon will become null
 
+import net.minecraft.block.AbstractBlock.Properties;
+
 public class ModSlabBlock extends SlabBlock {
 
     public ModSlabBlock (Properties prop, SoundType sound, float hardness, float resistance) {
