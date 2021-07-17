@@ -25,5 +25,6 @@
   "block.adventuresintime.hartnell_blowup_b" : "Hartnell Blowup Roundel (B)",
   "tile.adventuresintime.hartnell_blowup_b" : "Hartnell Blowup Roundel (B)",
   "block.adventuresintime.coral_roundel" : "Coral Roundel",
-  "tile.adventuresintime.coral_wall_block" : "Coral Wall"
+  "tile.adventuresintime.coral_wall_block" : "Coral Wall",
+  "tooltip.sonic.text_tooltip" : "\u00A75 Right Click to use"
 }

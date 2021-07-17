@@ -17,7 +17,6 @@ public class ModSlabBlock extends SlabBlock {
         super(prop.sound(sound).noCollission().strength(hardness, resistance).isSuffocating((state, iBlockReader, pos) -> false));
     }
 
-
     public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
         return 0;
     }
