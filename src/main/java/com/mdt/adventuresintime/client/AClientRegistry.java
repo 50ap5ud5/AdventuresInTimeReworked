@@ -33,6 +33,24 @@ public class AClientRegistry {
             RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_BLOWUP_B.get(), RenderType.solid());
             RenderTypeLookup.setRenderLayer(AIBlocks.CORAL_WALL_BLOCK.get(), RenderType.solid());
             RenderTypeLookup.setRenderLayer(AIBlocks.CORAL_ROUNDEL.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TOYOTA_FLASHING_LIGHT.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TOYOTA_FLASHING_LIGHT1.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TOYOTA_FLASHING_LIGHTA.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TOYOTA_FLASHING_LIGHT1A.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.RESTLESS_OVERGROW.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.RESTLESS_OVERGROW2.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.DDF_ROUNDEL_1.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.DDF_ROUNDEL_1OFFSET.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.VALEYARD_ROUNDEL.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.VALEYARD_ROUNDEL1.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.MYSTAL_ROUNDEL.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.MYSTAL_ROUNDEL1.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TBAKER_SOLID.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.MASTER_SOLID.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.MINT_SOLID.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.HARTNELL_BLOWUP_SOLID.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.NEWBURY_SOLID.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.OVERGROW_SOLID.get(), RenderType.solid());
         });
     }
 }

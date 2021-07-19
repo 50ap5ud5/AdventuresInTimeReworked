@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : [
+      {"model" : "adventuresintime:block/mint_solid"}
+    ]
+  }
+}

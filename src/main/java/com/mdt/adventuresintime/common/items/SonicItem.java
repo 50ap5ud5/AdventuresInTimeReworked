@@ -1,10 +1,7 @@
 package com.mdt.adventuresintime.common.items;
+import com.mdt.adventuresintime.itemgroups.AIItemGroups;
 import net.minecraft.block.*;
-import net.minecraft.block.material.Material;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.client.util.InputMappings;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.item.TNTEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -14,29 +11,18 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.*;
-import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
-import net.minecraftforge.event.entity.PlaySoundAtEntityEvent;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.eventbus.api.EventPriority;
-import org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter;
-import org.lwjgl.glfw.GLFW;
 
 import javax.annotation.Nullable;
-import javax.swing.*;
 import java.util.List;
-
-import static net.minecraft.block.DoorBlock.OPEN;
 
 public class SonicItem extends Item {
 
-    public SonicItem() {
-        super(new Item.Properties().stacksTo(1).tab(ItemGroup.TAB_TOOLS));
+    public SonicItem(Properties tab) {
+        super(new Item.Properties().stacksTo(1).tab(AIItemGroups.AITM));
     }
 
     @Override

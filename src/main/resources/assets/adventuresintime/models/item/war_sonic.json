@@ -1,0 +1,126 @@
+{
+	"credit": "Made by Loqor",
+	"textures": {
+		"0": "adventuresintime:item/war_sonic"
+	},
+	"elements": [
+		{
+			"from": [7.25, 12.75, 6.25],
+			"to": [8.75, 13.625, 7.75],
+			"faces": {
+				"north": {"uv": [8, 8, 9.5, 9], "texture": "#0"},
+				"east": {"uv": [4, 9, 5.5, 10], "texture": "#0"},
+				"south": {"uv": [6, 9, 7.5, 10], "texture": "#0"},
+				"west": {"uv": [8, 9, 9.5, 10], "texture": "#0"},
+				"up": {"uv": [5.5, 8.5, 4, 7], "texture": "#0"},
+				"down": {"uv": [8, 7, 6, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 13.6, 6.5],
+			"to": [8.5, 14.475, 7.5],
+			"faces": {
+				"north": {"uv": [8, 8, 9.5, 9], "texture": "#0"},
+				"east": {"uv": [4, 9, 5.5, 10], "texture": "#0"},
+				"south": {"uv": [8, 2.25, 9.5, 3.25], "texture": "#0"},
+				"west": {"uv": [8, 9, 9.5, 10], "texture": "#0"},
+				"up": {"uv": [5.5, 8.5, 4, 7], "texture": "#0"},
+				"down": {"uv": [8, 7, 6, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.75, 14.475, 6.75],
+			"to": [8.25, 14.975, 7.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.25, -1.125, 0]},
+			"faces": {
+				"north": {"uv": [14.5, 9.5, 16, 10.5], "texture": "#0"},
+				"east": {"uv": [3.5, 15, 5, 16], "texture": "#0"},
+				"south": {"uv": [14.5, 1.5, 16, 2.5], "texture": "#0"},
+				"west": {"uv": [14.5, 15, 16, 16], "texture": "#0"},
+				"up": {"uv": [11.25, 16, 9.75, 14.5], "texture": "#0"},
+				"down": {"uv": [8, 7, 6, 9], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 0, 6.5],
+			"to": [8.5, 0.75, 7.5],
+			"faces": {
+				"north": {"uv": [4, 9, 5, 10], "texture": "#0"},
+				"east": {"uv": [10, 4, 11, 5], "texture": "#0"},
+				"south": {"uv": [2.75, 8.75, 3.75, 9.75], "texture": "#0"},
+				"west": {"uv": [1.75, 8.5, 2.75, 9.5], "texture": "#0"},
+				"up": {"uv": [7, 11, 6, 10], "texture": "#0"},
+				"down": {"uv": [10.75, 6, 10, 6.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, 9.75, 6.25],
+			"to": [8.75, 10.5, 7.75],
+			"faces": {
+				"north": {"uv": [10, 0, 11.5, 0.75], "texture": "#0"},
+				"east": {"uv": [10, 2, 11.5, 2.75], "texture": "#0"},
+				"south": {"uv": [10, 3, 11.5, 3.75], "texture": "#0"},
+				"west": {"uv": [10, 3, 11.5, 3.75], "texture": "#0"},
+				"up": {"uv": [9.5, 1.5, 8, 0], "texture": "#0"},
+				"down": {"uv": [9.5, 2, 8, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 7.75, 6.5],
+			"to": [8.5, 13.5, 7.5],
+			"faces": {
+				"north": {"uv": [0, 7, 1.25, 12.75], "texture": "#0"},
+				"east": {"uv": [1, 7, 2, 12.75], "texture": "#0"},
+				"south": {"uv": [2, 7, 2.75, 12.75], "texture": "#0"},
+				"west": {"uv": [3, 7, 4, 12.75], "texture": "#0"},
+				"up": {"uv": [10, 13, 9, 12], "texture": "#0"},
+				"down": {"uv": [13, 9, 12, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.25, 0.75, 6.25],
+			"to": [8.75, 7.75, 7.75],
+			"faces": {
+				"north": {"uv": [4, 0.25, 5, 7], "texture": "#0"},
+				"east": {"uv": [6, 0.25, 7.5, 7], "texture": "#0"},
+				"south": {"uv": [0, 0.25, 1.5, 7], "texture": "#0"},
+				"west": {"uv": [2, 0, 3.5, 7], "texture": "#0"},
+				"up": {"uv": [9.5, 5.5, 8, 4], "texture": "#0"},
+				"down": {"uv": [9.5, 6, 8, 7.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 0.5],
+			"scale": [0.46, 0.46, 0.46]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 0.5],
+			"scale": [0.46, 0.46, 0.46]
+		},
+		"firstperson_righthand": {
+			"translation": [3.5, 1, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.75, 0.75, 0]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [0, -3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, -33, 24],
+			"translation": [-0.5, 0.5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "sonic",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

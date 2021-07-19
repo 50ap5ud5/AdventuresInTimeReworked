@@ -1,0 +1,25 @@
+{
+  "credit": "Made with Blockbench",
+  "parent" : "block/cube_all",
+  "textures": {
+    "0": "adventuresintime:block/toyota_flashing_light",
+    "1": "adventuresintime:block/toyota_bottom",
+    "2": "adventuresintime:block/toyota_top",
+    "3": "adventuresintime:block/toyota_flashing_lighta",
+    "particle" : "adventuresintime:block/toyota_flashing_light"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+      }
+    }
+  ]
+}
