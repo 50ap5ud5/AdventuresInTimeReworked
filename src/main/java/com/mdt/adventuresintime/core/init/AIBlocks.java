@@ -3,18 +3,13 @@ package com.mdt.adventuresintime.core.init;
 import com.mdt.adventuresintime.adventuresintime;
 import com.mdt.adventuresintime.common.blocks.ModSlabBlock;
 import com.mdt.adventuresintime.common.blocks.TransparentGrateBlock;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-
-import static com.mdt.adventuresintime.client.AClientRegistry.register;
 
 public class AIBlocks {
 
@@ -133,5 +128,8 @@ public class AIBlocks {
     public static final RegistryObject<Block> OVERGROW_SOLID = BLOCKS.register(
             "overgrow_solid", () -> new Block(Block.Properties.of(
                     Material.STONE, MaterialColor.COLOR_GREEN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
+    public static final RegistryObject<Block> TARDIS_LAMP = BLOCKS.register(
+            "tardis_lamp", () -> new Block(LanternBlock.Properties.of(
+                    Material.STONE, MaterialColor.COLOR_BLUE).lightLevel((p_235464_0_) -> 15).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
 
 }

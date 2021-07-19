@@ -35,8 +35,12 @@ public class ItemInit {
             "vmclosed", () -> new Item(new Item.Properties().tab(AIItemGroups.AITMITEMS)));
     public static final RegistryObject<Item> BIODAMPENER = ITEMS.register(
             "biodampener", () -> new Item(new Item.Properties().tab(AIItemGroups.AITMITEMS)));
+    public static final RegistryObject<Item> DISPOSABLE_CAMERA = ITEMS.register(
+            "disposable_camera", () -> new Item(new Item.Properties().tab(AIItemGroups.AITMITEMS)));
     public static final RegistryObject<SonicItem> VALE_SONIC = ITEMS.register(
             "valesonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
+    public static final RegistryObject<SonicItem> SARAH_JANE_SONIC = ITEMS.register(
+            "sarah_jane_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
 
 
     //BlockItems
@@ -105,5 +109,7 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> NEWBURY_SOLID = ITEMS.register(
             "newbury_solid", () -> new BlockItem(AIBlocks.NEWBURY_SOLID.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
     public static final RegistryObject<BlockItem> OVERGROW_SOLID = ITEMS.register(
-            "overgrow_solid", () -> new BlockItem(AIBlocks.NEWBURY_SOLID.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
+            "overgrow_solid", () -> new BlockItem(AIBlocks.OVERGROW_SOLID.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
+    public static final RegistryObject<BlockItem> TARDIS_LAMP = ITEMS.register(
+            "tardis_lamp", () -> new BlockItem(AIBlocks.TARDIS_LAMP.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
 }
