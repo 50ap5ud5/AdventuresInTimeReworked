@@ -18,7 +18,7 @@ fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
-mouseSensitivity:0.3004694879055023
+mouseSensitivity:0.5070422535211268
 fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0

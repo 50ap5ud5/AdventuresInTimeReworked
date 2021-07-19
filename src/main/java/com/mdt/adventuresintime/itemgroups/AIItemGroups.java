@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 
 public class AIItemGroups {
 
-    public static final ItemGroup AITM = new ItemGroup("Sonics") {
+    public static final ItemGroup AITMSONICS = new ItemGroup("Sonics") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ItemInit.TENNANT_SONIC.get());

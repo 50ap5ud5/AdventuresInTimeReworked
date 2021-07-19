@@ -1,5 +1,6 @@
 {
   "item.adventuresintime.whittaker_sonic": "13th Doctors Sonic",
+  "item.adventuresintime.valesonic": "The Vales Sonic",
   "item.adventuresintime.tennant_sonic": "10th Doctors Sonic",
   "item.adventuresintime.smith_sonic": "11th Doctors Sonic",
   "item.adventuresintime.sonic_screwdriver": "Sonic Screwdriver",
@@ -49,6 +50,7 @@
   "block.adventuresintime.tbaker_solid" : "Solid Yellow Baker Wall",
   "block.adventuresintime.master_solid" : "Solid Master Wall",
   "block.adventuresintime.mint_solid" : "Solid Brachacki Wall",
+  "block.adventuresintime.hartnell_blowup_solid" : "Solid Blowup Wall",
   "tooltip.sonic.text_tooltip" : "\u00A75 Right Click To Use",
   "itemGroup.Sonics" : "AITM Sonics",
   "itemGroup.Items" : "AITM Items",

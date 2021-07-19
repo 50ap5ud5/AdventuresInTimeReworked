@@ -22,7 +22,7 @@ import java.util.List;
 public class SonicItem extends Item {
 
     public SonicItem(Properties tab) {
-        super(new Item.Properties().stacksTo(1).tab(AIItemGroups.AITM));
+        super(new Item.Properties().stacksTo(1).tab(AIItemGroups.AITMSONICS));
     }
 
     @Override

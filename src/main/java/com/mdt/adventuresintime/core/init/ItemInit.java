@@ -16,25 +16,27 @@ public class ItemInit {
 
     //Items are registered here
     public static final RegistryObject<SonicItem> WHITTAKER_SONIC = ITEMS.register(
-            "whittaker_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "whittaker_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> TENNANT_SONIC = ITEMS.register(
-            "tennant_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "tennant_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> SMITH_SONIC = ITEMS.register(
-            "smith_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "smith_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> SONIC_SCREWDRIVER = ITEMS.register(
-            "sonic_screwdriver", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "sonic_screwdriver", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> MYSTAL_SONIC = ITEMS.register(
-            "mystal_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "mystal_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> TBAKER_SONIC = ITEMS.register(
-            "tbaker_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "tbaker_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> WAR_SONIC = ITEMS.register(
-            "war_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "war_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<SonicItem> SCEPTER_SONIC = ITEMS.register(
-            "scepter_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITM)));
+            "scepter_sonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
     public static final RegistryObject<Item> VORTEX_MANIPULATOR = ITEMS.register(
             "vmclosed", () -> new Item(new Item.Properties().tab(AIItemGroups.AITMITEMS)));
     public static final RegistryObject<Item> BIODAMPENER = ITEMS.register(
             "biodampener", () -> new Item(new Item.Properties().tab(AIItemGroups.AITMITEMS)));
+    public static final RegistryObject<SonicItem> VALE_SONIC = ITEMS.register(
+            "valesonic", () -> new SonicItem(new Item.Properties().tab(AIItemGroups.AITMSONICS)));
 
 
     //BlockItems

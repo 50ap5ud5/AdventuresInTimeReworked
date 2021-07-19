@@ -1,5 +1,5 @@
 {
-	"credit": "Made by Loqor",
+	"credit": "Made by Vale",
 	"textures": {
 		"0": "adventuresintime:item/scepter_sonic"
 	},
@@ -18,7 +18,7 @@
 			}
 		},
 		{
-			"from": [7.0982, -16.62403, -1.51408],
+			"from": [7.0982, -16.0, -1.51408],
 			"to": [8.9018, -11.22043, 1.18952],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [0.8, -30.12223, 7.48772]},
 			"faces": {
