@@ -1,10 +1,28 @@
-com/mdt/adventuresintime/common/blocks/ModSlabBlock.java
- com.mdt.adventuresintime.common.blocks.ModSlabBlock
+com/mdt/adventuresintime/core/init/EntityTypeInit.java
+ com.mdt.adventuresintime.core.init.EntityTypeInit
+com/mdt/adventuresintime/core/init/ContainerTypeInit.java
+ com.mdt.adventuresintime.core.init.ContainerTypeInit
 com/mdt/adventuresintime/client/AClientRegistry.java
  com.mdt.adventuresintime.client.AClientRegistry
 com/mdt/adventuresintime/adventuresintime.java
  com.mdt.adventuresintime.adventuresintime
+com/mdt/adventuresintime/core/init/EnchantmentsInit.java
+ com.mdt.adventuresintime.core.init.EnchantmentsInit
+com/mdt/adventuresintime/client/util/AISounds.java
+ com.mdt.adventuresintime.client.util.AISounds
+com/mdt/adventuresintime/core/init/TileEntityTypeInit.java
+ com.mdt.adventuresintime.core.init.TileEntityTypeInit
+com/mdt/adventuresintime/core/init/AIBlocks.java
+ com.mdt.adventuresintime.core.init.AIBlocks
+com/mdt/adventuresintime/client/util/TNTBlockExplode.java
+ com.mdt.adventuresintime.client.util.TNTBlockExplode
+com/mdt/adventuresintime/common/blocks/ModSlabBlock.java
+ com.mdt.adventuresintime.common.blocks.ModSlabBlock
 com/mdt/adventuresintime/common/blocks/TransparentGrateBlock.java
  com.mdt.adventuresintime.common.blocks.TransparentGrateBlock
 com/mdt/adventuresintime/client/util/ClientUtils.java
  com.mdt.adventuresintime.client.util.ClientUtils
+com/mdt/adventuresintime/common/items/SonicItem.java
+ com.mdt.adventuresintime.common.items.SonicItem
+com/mdt/adventuresintime/core/init/ItemInit.java
+ com.mdt.adventuresintime.core.init.ItemInit
