@@ -1,4 +1,5 @@
 package com.mdt.adventuresintime.common.items;
+import com.mdt.adventuresintime.client.util.AISounds;
 import com.mdt.adventuresintime.itemgroups.AIItemGroups;
 import net.minecraft.block.*;
 import net.minecraft.client.util.ITooltipFlag;
@@ -6,7 +7,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.item.TNTEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -48,16 +48,20 @@ public class SonicItem extends Item {
         BlockState blockstate = world.getBlockState(blockpos);
         Block block = blockstate.getBlock();
         if (CampfireBlock.canLight(blockstate)) {
-            world.playSound(playerentity, blockpos, SoundEvents.FLINTANDSTEEL_USE, SoundCategory.BLOCKS, 1.0F, random.nextFloat() * 0.4F + 0.8F);
+            world.playSound(null, blockpos.getX(), blockpos.getY(), blockpos.getZ(), AISounds.SONIC_SOUND.get(), SoundCategory.PLAYERS,0.25f,1.0f);
             world.setBlock(blockpos, blockstate.setValue(BlockStateProperties.LIT, Boolean.valueOf(true)), 11);
         }
         if (block instanceof TNTBlock) {
             playerentity.level.removeBlock(blockpos, true);
             TNTEntity tnt = new TNTEntity(world, (double) ((float) blockpos.getX() + 0.5F), (double) blockpos.getY(), (double) ((float) blockpos.getZ() + 0.5F), playerentity);
             world.addFreshEntity(tnt);
+            world.playSound(null, tnt.getX(), tnt.getY(), tnt.getZ(), AISounds.SONIC_SOUND.get(), SoundCategory.BLOCKS, 1.0F, 1.0F);
             world.playSound(null, tnt.getX(), tnt.getY(), tnt.getZ(), SoundEvents.TNT_PRIMED, SoundCategory.BLOCKS, 1.0F, 1.0F);
-
             return ActionResultType.sidedSuccess(world.isClientSide());
+        }
+        if (block instanceof Block) {
+            world.playSound(null, blockpos.getX(), blockpos.getY(), blockpos.getZ(), AISounds.SONIC_SOUND.get(), SoundCategory.PLAYERS,0.25f,1.0f);
+
         }
         return ActionResultType.SUCCESS;
     }

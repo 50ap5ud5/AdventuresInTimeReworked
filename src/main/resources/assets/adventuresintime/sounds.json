@@ -1,0 +1,12 @@
+{
+  "item.sonic_activate" : {
+    "category" : "sonic",
+    "subtitle" : "sonic.sonic_sound.sub",
+    "sounds" : [
+      {
+        "name": "adventuresintime:sonic/sonic_sound",
+        "stream": "true"
+      }
+    ]
+  }
+}

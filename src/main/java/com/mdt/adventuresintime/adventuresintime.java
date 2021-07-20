@@ -1,5 +1,6 @@
 package com.mdt.adventuresintime;
 
+import com.mdt.adventuresintime.client.util.AISounds;
 import com.mdt.adventuresintime.core.init.AIBlocks;
 import com.mdt.adventuresintime.core.init.ItemInit;
 import net.minecraft.block.Blocks;
@@ -25,6 +26,7 @@ public class adventuresintime {
         //REGISTER DEFERRED REGISTRY
         ItemInit.ITEMS.register(bus);
         AIBlocks.BLOCKS.register(bus);
+        AISounds.SOUNDS.register(bus);
 
 
         MinecraftForge.EVENT_BUS.register(this);
