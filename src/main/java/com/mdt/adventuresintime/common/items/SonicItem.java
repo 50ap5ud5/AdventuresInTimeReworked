@@ -59,10 +59,7 @@ public class SonicItem extends Item {
             world.playSound(null, tnt.getX(), tnt.getY(), tnt.getZ(), SoundEvents.TNT_PRIMED, SoundCategory.BLOCKS, 1.0F, 1.0F);
             return ActionResultType.sidedSuccess(world.isClientSide());
         }
-        if (block instanceof Block) {
-            world.playSound(null, blockpos.getX(), blockpos.getY(), blockpos.getZ(), AISounds.SONIC_SOUND.get(), SoundCategory.PLAYERS,0.25f,1.0f);
 
-        }
         return ActionResultType.SUCCESS;
     }
 }
