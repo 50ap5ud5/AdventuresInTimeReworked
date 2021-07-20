@@ -54,8 +54,13 @@
   "block.adventuresintime.mint_solid" : "Solid Brachacki Wall",
   "block.adventuresintime.hartnell_blowup_solid" : "Solid Blowup Wall",
   "block.adventuresintime.tardis_lamp" : "TARDIS Decoration Lamp",
+  "block.adventuresintime.crystalline" : "Crystalline Block",
+  "block.adventuresintime.steel_grate_block" : "Steel Grate Block",
+  "block.adventuresintime.transparent_blocklight" : "Transparent Blocklight",
+  "block.adventuresintime.steel_grate_block_slab" : "Steel Grate Slab",
   "tooltip.sonic.text_tooltip" : "\u00A75 Right Click To Use",
   "itemGroup.Sonics" : "AITM Sonics",
   "itemGroup.Items" : "AITM Items",
-  "itemGroup.Blocks" : "AITM Blocks"
+  "itemGroup.Blocks" : "AITM Blocks",
+  "itemGroup.Roundels" : "AITM Roundels"
 }

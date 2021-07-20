@@ -2,7 +2,6 @@ package com.mdt.adventuresintime.common.items;
 import com.mdt.adventuresintime.client.util.AISounds;
 import com.mdt.adventuresintime.itemgroups.AIItemGroups;
 import com.mojang.datafixers.types.templates.Sum;
-import javafx.geometry.Pos;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.util.ITooltipFlag;

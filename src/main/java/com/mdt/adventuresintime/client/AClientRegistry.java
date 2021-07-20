@@ -52,6 +52,10 @@ public class AClientRegistry {
             RenderTypeLookup.setRenderLayer(AIBlocks.NEWBURY_SOLID.get(), RenderType.solid());
             RenderTypeLookup.setRenderLayer(AIBlocks.OVERGROW_SOLID.get(), RenderType.solid());
             RenderTypeLookup.setRenderLayer(AIBlocks.TARDIS_LAMP.get(), RenderType.solid());
+            RenderTypeLookup.setRenderLayer(AIBlocks.CRYSTALLINE.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(AIBlocks.STEEL_GRATE_BLOCK.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(AIBlocks.TRANSPARENT_BLOCKLIGHT.get(), RenderType.translucent());
+            RenderTypeLookup.setRenderLayer(AIBlocks.STEEL_GRATE_BLOCK_SLAB.get(), RenderType.translucent());
         });
     }
 }

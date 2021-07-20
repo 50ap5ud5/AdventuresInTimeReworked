@@ -112,4 +112,12 @@ public class ItemInit {
             "overgrow_solid", () -> new BlockItem(AIBlocks.OVERGROW_SOLID.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
     public static final RegistryObject<BlockItem> TARDIS_LAMP = ITEMS.register(
             "tardis_lamp", () -> new BlockItem(AIBlocks.TARDIS_LAMP.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
+    public static final RegistryObject<BlockItem> CRYSTALLINE = ITEMS.register(
+            "crystalline", () -> new BlockItem(AIBlocks.CRYSTALLINE.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
+    public static final RegistryObject<BlockItem> STEEL_GRATE_BLOCK = ITEMS.register(
+            "steel_grate_block", () -> new BlockItem(AIBlocks.STEEL_GRATE_BLOCK.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
+    public static final RegistryObject<BlockItem> TRANSPARENT_BLOCKLIGHT = ITEMS.register(
+            "transparent_blocklight", () -> new BlockItem(AIBlocks.TRANSPARENT_BLOCKLIGHT.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
+    public static final RegistryObject<BlockItem> STEEL_GRATE_BLOCK_SLAB = ITEMS.register(
+            "steel_grate_block_slab", () -> new BlockItem(AIBlocks.STEEL_GRATE_BLOCK_SLAB.get(),new Item.Properties().tab(AIItemGroups.AITMBLOCKS)));
 }

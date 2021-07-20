@@ -21,8 +21,14 @@ public class AIBlocks {
     public static final RegistryObject<Block> STEEL_GRATE = BLOCKS.register(
             "steel_grate", () -> new Block(TransparentGrateBlock.Properties.of(
                     Material.METAL, MaterialColor.COLOR_BROWN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+    public static final RegistryObject<Block> STEEL_GRATE_BLOCK = BLOCKS.register(
+            "steel_grate_block", () -> new Block(TransparentGrateBlock.Properties.of(
+                    Material.METAL, MaterialColor.COLOR_BROWN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
     public static final RegistryObject<Block> STEEL_GRATE_SLAB = BLOCKS.register(
             "steel_grate_slab", () -> new SlabBlock(ModSlabBlock.Properties.of(
+                    Material.METAL, MaterialColor.COLOR_BROWN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
+    public static final RegistryObject<Block> STEEL_GRATE_BLOCK_SLAB = BLOCKS.register(
+            "steel_grate_block_slab", () -> new SlabBlock(ModSlabBlock.Properties.of(
                     Material.METAL, MaterialColor.COLOR_BROWN).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.METAL).noOcclusion()));
 
     //Newbury
@@ -131,5 +137,10 @@ public class AIBlocks {
     public static final RegistryObject<Block> TARDIS_LAMP = BLOCKS.register(
             "tardis_lamp", () -> new Block(LanternBlock.Properties.of(
                     Material.STONE, MaterialColor.COLOR_BLUE).lightLevel((p_235464_0_) -> 15).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.STONE).noOcclusion()));
-
+    public static final RegistryObject<Block> CRYSTALLINE = BLOCKS.register(
+            "crystalline", () -> new Block(AbstractGlassBlock.Properties.of(
+                    Material.GLASS, MaterialColor.COLOR_ORANGE).lightLevel((p_235464_0_) -> 12).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> TRANSPARENT_BLOCKLIGHT = BLOCKS.register(
+            "transparent_blocklight", () -> new Block(AbstractGlassBlock.Properties.of(
+                    Material.GLASS, MaterialColor.COLOR_CYAN).lightLevel((p_235464_0_) -> 15).harvestTool(ToolType.PICKAXE).harvestLevel(-1).strength(3.0F, 6.0F).sound(SoundType.GLASS).noOcclusion()));
 }

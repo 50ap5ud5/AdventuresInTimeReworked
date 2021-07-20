@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "adventuresintime:block/steel_grate_block_slab" },
+    "type=top": { "model": "adventuresintime:block/steel_grate_block_slab_top" },
+    "type=double": { "model": "adventuresintime:block/steel_grate_block" }
+  }
+}
