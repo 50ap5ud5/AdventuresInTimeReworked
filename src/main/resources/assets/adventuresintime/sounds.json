@@ -1,6 +1,5 @@
 {
-  "item.sonic_activate" : {
-    "category" : "sonic",
+  "sonic_sound" : {
     "subtitle" : "sonic.sonic_sound.sub",
     "sounds" : [
       {
